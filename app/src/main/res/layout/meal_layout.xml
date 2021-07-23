@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivmealimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:srcCompat="@tools:sample/avatars" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvmealname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal name"
+            android:textColor="@color/primary"
+            android:layout_margin="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvcategoryarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category and Area"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvinstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructions"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
